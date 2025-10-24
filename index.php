@@ -48,29 +48,29 @@ include "geometry.php";
             <h1>There is no such thing as exercise 3</h1>
         </div>
         <div class="mb-4" id="ex4">
-            <h1>Dit is oefening 4</h1>
+            <h1>Dit is oefening 4: Variabelen</h1>
             <?php
             $variable1=0;
-            $variable2=0;
+            //$variable2=0;
             $variable3="";
             $variable4=986;
 
             if(isset($variable1)){?>
-                <p>variable 1 is OK!</p>
+                <p>Variable 1 is OK!</p>
             <?php }
             if (isset($variable2)){?>
-                <p>variable 2 is OK!</p>
+                <p>Variable 2 is OK!</p>
             <?php }
             if (empty($variable3)){?>
-                <p>variable 3 is OK!</p>
+                <p>Variable 3 is OK!</p>
             <?php }
             if (empty($variable4)){?>
-            <p>variable 4 is OK!</p>
+            <p>Variable 4 is OK!</p>
             <?php }
             ?>
         </div>
         <div class="mb-4" id="ex5">
-            <h1>Dit is oefening 5</h1>
+            <h1>Dit is oefening 5: Controlestructuren</h1>
         </div>
         <div class="mb-4" id="ex6">
             <h1>Dit is oefening 6</h1>
