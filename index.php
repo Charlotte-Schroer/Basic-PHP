@@ -45,10 +45,29 @@ include "geometry.php";
             <p>De oppervlakte van een rechthoek met als breedte 5 en hoogte 12 is: <?php echo calculateSurfaceAreaRectangle(5,12); ?>.</p>
         </div>
         <div class="mb-4" id="ex3">
-            <h1>Dit is oefening 3</h1>
+            <h1>There is no such thing as exercise 3</h1>
         </div>
         <div class="mb-4" id="ex4">
             <h1>Dit is oefening 4</h1>
+            <?php
+            $variable1=0;
+            $variable2=0;
+            $variable3="";
+            $variable4=986;
+
+            if(isset($variable1)){?>
+                <p>variable 1 is OK!</p>
+            <?php }
+            if (isset($variable2)){?>
+                <p>variable 2 is OK!</p>
+            <?php }
+            if (empty($variable3)){?>
+                <p>variable 3 is OK!</p>
+            <?php }
+            if (empty($variable4)){?>
+            <p>variable 4 is OK!</p>
+            <?php }
+            ?>
         </div>
         <div class="mb-4" id="ex5">
             <h1>Dit is oefening 5</h1>
