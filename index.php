@@ -39,7 +39,10 @@ include "geometry.php";
             <p>De oppervlakte van een cirkel met straal 2.2 is: <?php echo calculateSurfaceAreaCircle(2.2); ?></p>
         </div>
         <div class="mb-4" id="ex2">
-            <h1>Dit is oefening 2</h1>
+            <h1>Dit is oefening 2: Meetkunde</h1>
+            <p>De oppervlakte van een driehoek met als basis 6 en hoogte 3 is: <?php echo calculateSurfaceAreaTriangle(6,3); ?>.</p>
+            <p>De oppervlakte van een vierkant met een zijde van 8 is: <?php echo calculateSurfaceAreaSquare(8); ?>.</p>
+            <p>De oppervlakte van een rechthoek met als breedte 5 en hoogte 12 is: <?php echo calculateSurfaceAreaRectangle(5,12); ?>.</p>
         </div>
         <div class="mb-4" id="ex3">
             <h1>Dit is oefening 3</h1>
