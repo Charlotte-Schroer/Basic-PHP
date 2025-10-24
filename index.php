@@ -71,6 +71,22 @@ include "geometry.php";
         </div>
         <div class="mb-4" id="ex5">
             <h1>Dit is oefening 5: Controlestructuren</h1>
+            <?php
+            $nummer=10;
+            $return=0;
+            switch ($nummer) {
+                case 10:
+                    $return=10;
+                    break;
+                case 20:
+                    $return=20;
+                    break;
+                case 30:
+                    $return=30;
+                    break;
+            }
+            ?>
+            <p>Het nummer is gelijk aan <?= $return ?></p>
         </div>
         <div class="mb-4" id="ex6">
             <h1>Dit is oefening 6</h1>
