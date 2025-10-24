@@ -89,7 +89,14 @@ include "geometry.php";
             <p>Het nummer is gelijk aan <?= $return ?></p>
         </div>
         <div class="mb-4" id="ex6">
-            <h1>Dit is oefening 6</h1>
+            <h1>Dit is oefening 6: Controlestructuren</h1>
+            <?php
+            $som=0;
+            for ($i = 1; $i <= 30; $i++) {
+                $som+=$i;
+                ?> <p> <?php echo $som ?> </p> <?php
+            }
+            ?>
         </div>
         <div class="mb-4" id="ex7">
             <h1>Dit is oefening 7</h1>
